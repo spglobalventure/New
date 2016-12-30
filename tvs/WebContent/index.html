@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Tvs Tyres</title>
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/form-validation.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/js1.js"></script>
+
+</head>
+
+
+	<header>
+		<h1><img src="images/logo.jpg"></h1>
+    </header>
+
+    <ul>
+        <li><a href="index.html">Warranty Registration Form</a></li>
+    </ul>
+
+
+    <div class="main-content">
+
+        <!-- You only need this form and the form-validation.css -->
+
+        <form class="form-validation" method="post" action="LoginServlet">
+
+
+            <div class="form-row form-input-name-row">
+
+                <label>
+                    <span>Name</span>
+                    <input type="text" name="name" id="name">
+                </label>
+				<span class="form-valid-data-sign"><i class="fa fa-check"></i></span>
+                <span class="form-invalid-data-sign"><i class="fa fa-close"></i></span>
+                <span class="form-invalid-data-info"></span>
+				
+            </div>
+            <div class="form-row form-input-email-row">
+
+                <label>
+                    <span>Email</span>
+                    <input type="email" name="email" placeholder="email@example.com">
+                </label>
+
+                <span class="form-valid-data-sign"><i class="fa fa-check"></i></span>
+                <span class="form-invalid-data-sign"><i class="fa fa-close"></i></span>
+                <span class="form-invalid-data-info"></span>
+
+            </div>
+			<div class="form-row form-input-name-row">
+
+                <label>
+                    <span>Mobile</span>
+                    <input type="text" name="mobileno">
+                </label>
+               <span class="form-valid-data-sign"><i class="fa fa-check"></i></span>
+
+                <span class="form-invalid-data-sign"><i class="fa fa-close"></i></span>
+                <span class="form-invalid-data-info"></span>
+
+            </div>
+			  <div class="form-row form-input-email-row">
+
+                <label>
+                    <span>City</span>
+                    <input type="text" name="city">
+                </label>
+
+                <span class="form-valid-data-sign"><i class="fa fa-check"></i></span>
+
+                <span class="form-invalid-data-sign"><i class="fa fa-close"></i></span>
+                <span class="form-invalid-data-info"></span>
+
+            </div>
+			 <div class="form-row form-input-name-row">
+
+                <label>
+                    <span>Lucky Draw Coupon #</span>
+                    <input type="text" name="luckycoupon">
+                </label>
+               <span class="form-valid-data-sign"><i class="fa fa-check"></i></span>
+
+                <span class="form-invalid-data-sign"><i class="fa fa-close"></i></span>
+                <span class="form-invalid-data-info"></span>
+
+            </div>
+			
+            <div class="form-row">
+
+                <label>
+                    <span>Tyres</span>
+					<input type="checkbox" name="tyre" value="Front" style="width:20px;box-shadow:none;">Front
+					<input type="checkbox" name="tyre" value="Rear" style="width:20px;box-shadow:none;">Rear
+                </label>
+
+            </div>
+            <div class="form-row form-input-name-row">
+
+                <label>
+                    <span>Number of Tyres</span>
+                    <input type="text" name="tyreno">
+                </label>
+               <span class="form-valid-data-sign"><i class="fa fa-check"></i></span>
+
+                <span class="form-invalid-data-sign"><i class="fa fa-close"></i></span>
+                <span class="form-invalid-data-info"></span>
+
+            </div>
+			<div class="form-row form-input-name-row">
+
+                <label>
+                    <span>Vehicle Make</span>
+                    <input type="text" name="vehiclemake">
+                </label>
+               <span class="form-valid-data-sign"><i class="fa fa-check"></i></span>
+
+                <span class="form-invalid-data-sign"><i class="fa fa-close"></i></span>
+                <span class="form-invalid-data-info"></span>
+
+            </div>
+			<div class="form-row form-input-name-row">
+
+                <label>
+                    <span>Vehicle Model</span>
+                    <input type="text" name="vehiclemodel">
+                </label>
+               <span class="form-valid-data-sign"><i class="fa fa-check"></i></span>
+
+                <span class="form-invalid-data-sign"><i class="fa fa-close"></i></span>
+                <span class="form-invalid-data-info"></span>
+
+            </div>
+			<div class="form-row form-input-name-row">
+
+                <label>
+                    <span>Dealer Name</span>
+                    <input type="text" name="dealername">
+                </label>
+               <span class="form-valid-data-sign"><i class="fa fa-check"></i></span>
+
+                <span class="form-invalid-data-sign"><i class="fa fa-close"></i></span>
+                <span class="form-invalid-data-info"></span>
+
+            </div>
+			<div class="form-row form-input-name-row">
+
+                <label>
+                    <span>Dealer Location</span>
+                    <input type="text" name="dealerlocation">
+                </label>
+               <span class="form-valid-data-sign"><i class="fa fa-check"></i></span>
+
+                <span class="form-invalid-data-sign"><i class="fa fa-close"></i></span>
+                <span class="form-invalid-data-info"></span>
+
+            </div>
+
+
+
+
+
+            <div class="form-row">
+
+                <label class="form-checkbox">
+                    <span>I agree to our Terms and Conditions.</span>
+                    <textarea rows="4" cols="25">
+ 				We offer free coupons for selected people. 
+				</textarea>
+                </label>
+
+            </div>
+
+            <div class="form-row">
+
+                <button type="submit" id="form1_submit" value="submit">Submit</button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- <script type="text/javascript">
+
+    $(document).ready(function() {
+
+        // Here is how to show an error message next to a form field
+
+        var errorField = $('.form-input-name-row');
+
+        // Adding the form-invalid-data class will show
+        // the error messaghttp://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.jse and the red x for that field
+
+        errorField.addClass('form-invalid-data');
+        errorField.find('.form-invalid-data-info').text('Please enter your name');
+
+
+        // Here is how to mark a field with a green check mark
+
+        var successField = $('.form-input-email-row');
+
+        successField.addClass('form-valid-data');
+		
+    });
+
+</script>
+ -->
+</body>
+
+</html>
